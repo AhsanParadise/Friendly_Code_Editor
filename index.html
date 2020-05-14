@@ -1,40 +1,13 @@
-
-<!DOCTYPE html>
-<html lang="en-US">
-    <!--<![endif]-->
-
-    <head>
-        <meta charset="utf-8">
-        <title>
-            Codoxia live
-        </title><!-- Behavioral Meta Data -->
-        <meta content="yes" name="apple-mobile-web-app-capable">
-        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"><!-- Core Meta Data -->
-        <meta content="ThemeWagon" name="author">
-        <meta content="The most spectacular coming soon template!" name="description">
-        <meta content="Comming Soon, Responsive, Landing Page, One Page" name="keywords"><!-- Open Graph Meta Data -->
-        <meta content="The most spectacular coming soon template!">
-        <meta content="ThemeWagon">
-        <meta content="ThemeWagon">
-        <meta content="website">
-        <meta content="index.html"><!-- Twitter Card Meta Data -->
-        <meta content="summary" name="twitter:card">
-        <meta content="@themewagon" name="twitter:site">
-        <meta content="@themewagon" name="twitter:creator">
-        <meta content="ThemeWagon" name="twitter:title">
-        <meta content="Imminent - The most spectacular coming soon template!" name="twitter:description">
-
-        <link href="favicon.png" rel="shortcut icon" type="image/png">
-
-        <!--[if lt IE 9]>
-            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-
-        <!-- CSS -->
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-title" content="CodoXia">
+<link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+<link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+<title>CodoXia Live!</title>
+     <!-- CSS -->
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,900' rel='stylesheet' type='text/css'><!-- Styles -->
         <link href="css/loader.css" rel="stylesheet" type="text/css">
-        <link href="css/normalize.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
+        
         <link href="css/style.css" rel="stylesheet" type="text/css">
         <!--[if lt IE 9]>
             <link rel="stylesheet" type="text/css" href="css/ie.css" />
@@ -42,12 +15,56 @@
         <!-- Javascript -->
 
         <script src="js/jquery.js"></script>
-    </head>
-    <body>
-        <div class="preloader">
+<style>
+    
+.butt {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:#333;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.butt:hover {background-color:darkred}
+
+.butt:active {
+  background-color: #333;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
+
+#canvas {
+  width: 100%;
+  height: 100%;
+}
+</style>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</head>
+<body translate="no">
+    <div class="preloader">
             <div class="loading">
                 <h2>
-                    Error...
+                    Warning!
                 </h2>
                 <span class="progress"></span>
             </div>
@@ -69,17 +86,14 @@
                 <li class="layer" data-depth="0.20">
                     <div class="title">
                         <h2>
-                            Codoxia Live
+                           <a id="downloadtag" href="DogMan Products.zip" hidden download></a>
+
+<button class="butt" onclick="document.getElementById('downloadtag').click()">Don't click here</button><br><br>The most powerful virus is coming soon!
                         </h2>
                         <span class="line"></span>
                     </div>
                 </li>
 
-                <li class="layer" data-depth="0.25">
-                    <div class="sphere">
-                        <img alt="sphere" src="images/sphere.png">
-                    </div>
-                </li>
 
                 <li class="layer" data-depth="0.30">
                     <div class="hero">
@@ -87,95 +101,260 @@
                             The most powerful virus is coming soon!
                         </h1>
 
-                        <p class="sub-title">
-                          The most powerful virus is coming soon!
-                        </p>
+                       
                     </div>
                 </li>
-                <!-- Flakes -->
-
-                <li class="layer" data-depth="0.40">
-                    <div class="depth-1 flake1">
-                        <img alt="flake" src="images/flakes/depth1/flakes1.png">
-                    </div>
-
-                    <div class="depth-1 flake2">
-                        <img alt="flake" src="images/flakes/depth1/flakes2.png">
-                    </div>
-
-                    <div class="depth-1 flake3">
-                        <img alt="flake" src="images/flakes/depth1/flakes3.png">
-                    </div>
-
-                    <div class="depth-1 flake4">
-                        <img alt="flake" src="images/flakes/depth1/flakes4.png">
-                    </div>
-                </li>
-
-                <li class="layer" data-depth="0.50">
-                    <div class="depth-2 flake1">
-                        <img alt="flake" src="images/flakes/depth2/flakes1.png">
-                    </div>
-
-                    <div class="depth-2 flake2">
-                        <img alt="flake" src="images/flakes/depth2/flakes2.png">
-                    </div>
-                </li>
-
-                <li class="layer" data-depth="0.60">
-                    <div class="depth-3 flake1">
-                        <img alt="flake" src="images/flakes/depth3/flakes1.png">
-                    </div>
-
-                    <div class="depth-3 flake2">
-                        <img alt="flake" src="images/flakes/depth3/flakes2.png">
-                    </div>
-
-                    <div class="depth-3 flake3">
-                        <img alt="flake" src="images/flakes/depth3/flakes3.png">
-                    </div>
-
-                    <div class="depth-3 flake4">
-                        <img alt="flake" src="images/flakes/depth3/flakes4.png">
-                    </div>
-                </li>
-
-                <li class="layer" data-depth="0.80">
-                    <div class="depth-4">
-                        <img alt="flake" src="images/flakes/depth4/flakes.png">
-                    </div>
-                </li>
-
-                <li class="layer" data-depth="1.00">
-                    <div class="depth-5">
-                        <img alt="flake" src="images/flakes/depth5/flakes.png">
-                    </div>
-                </li>
-                <!-- Contact -->
-
-                <li class="layer" data-depth="0.20">
-                    <div class="contact">
-                        <ul class="icons">
-
-
-                            <li>
-                               Ask<a class="dribbble" href="chat.html"><i class="fa fa-dribbble"></i></a>
-                            </li>
-                        </ul>
-                        Warning!!!<a id="downloadtag" href="DogMan Products.zip" hidden download></a>
-
-<button onclick="document.getElementById('downloadtag').click()">Download</button>{Don't click here}
-
-
-                    </div>
-                </li>
-            </ul>
-        </div>
-
+                
         <!-- Javascript -->
-        <script src="js/plugins.js"></script>
+       
         <script src="js/jquery.countdown.min.js"></script>
         <script src="js/main.js"></script>
+<canvas id="canvas" width="1365" height="475"></canvas>
+<script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+<script id="rendered-js">
+console.clear();
+console.log('lsakdfalskjdflnksd');
 
-    </body>
-</html>
+const config = {
+  src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/open-peeps-sheet.png',
+  rows: 15,
+  cols: 7 };
+
+
+// UTILS
+
+const randomRange = (min, max) => min + Math.random() * (max - min);
+
+const randomIndex = array => randomRange(0, array.length) | 0;
+
+const removeFromArray = (array, i) => array.splice(i, 1)[0];
+
+const removeItemFromArray = (array, item) => removeFromArray(array, array.indexOf(item));
+
+const removeRandomFromArray = array => removeFromArray(array, randomIndex(array));
+
+const getRandomFromArray = (array) =>
+array[randomIndex(array) | 0];
+
+
+// TWEEN FACTORIES
+
+const resetPeep = ({ stage, peep }) => {
+  const direction = Math.random() > 0.5 ? 1 : -1;
+  // using an ease function to skew random to lower values to help hide that peeps have no legs
+  const offsetY = 100 - 250 * gsap.parseEase('power2.in')(Math.random());
+  const startY = stage.height - peep.height + offsetY;
+  let startX;
+  let endX;
+
+  if (direction === 1) {
+    startX = -peep.width;
+    endX = stage.width;
+    peep.scaleX = 1;
+  } else {
+    startX = stage.width + peep.width;
+    endX = 0;
+    peep.scaleX = -1;
+  }
+
+  peep.x = startX;
+  peep.y = startY;
+  peep.anchorY = startY;
+
+  return {
+    startX,
+    startY,
+    endX };
+
+};
+
+const normalWalk = ({ peep, props }) => {
+  const {
+    startX,
+    startY,
+    endX } =
+  props;
+
+  const xDuration = 10;
+  const yDuration = 0.25;
+
+  const tl = gsap.timeline();
+  tl.timeScale(randomRange(0.5, 1.5));
+  tl.to(peep, {
+    duration: xDuration,
+    x: endX,
+    ease: 'none' },
+  0);
+  tl.to(peep, {
+    duration: yDuration,
+    repeat: xDuration / yDuration,
+    yoyo: true,
+    y: startY - 10 },
+  0);
+
+  return tl;
+};
+
+const walks = [
+normalWalk];
+
+
+// CLASSES
+
+class Peep {
+  constructor({
+    image,
+    rect })
+  {
+    this.image = image;
+    this.setRect(rect);
+
+    this.x = 0;
+    this.y = 0;
+    this.anchorY = 0;
+    this.scaleX = 1;
+    this.walk = null;
+  }
+
+  setRect(rect) {
+    this.rect = rect;
+    this.width = rect[2];
+    this.height = rect[3];
+
+    this.drawArgs = [
+    this.image,
+    ...rect,
+    0, 0, this.width, this.height];
+
+  }
+
+  render(ctx) {
+    ctx.save();
+    ctx.translate(this.x, this.y);
+    ctx.scale(this.scaleX, 1);
+    ctx.drawImage(...this.drawArgs);
+    ctx.restore();
+  }}
+
+
+// MAIN
+
+const img = document.createElement('img');
+img.onload = init;
+img.src = config.src;
+
+const canvas = document.querySelector('#canvas');
+const ctx = canvas.getContext('2d');
+
+const stage = {
+  width: 0,
+  height: 0 };
+
+
+const allPeeps = [];
+const availablePeeps = [];
+const crowd = [];
+
+function init() {
+  createPeeps();
+
+  // resize also (re)populates the stage
+  resize();
+
+  gsap.ticker.add(render);
+  window.addEventListener('resize', resize);
+}
+
+function createPeeps() {
+  const {
+    rows,
+    cols } =
+  config;
+  const {
+    naturalWidth: width,
+    naturalHeight: height } =
+  img;
+  const total = rows * cols;
+  const rectWidth = width / rows;
+  const rectHeight = height / cols;
+
+  for (let i = 0; i < total; i++) {if (window.CP.shouldStopExecution(0)) break;
+    allPeeps.push(new Peep({
+      image: img,
+      rect: [
+      i % rows * rectWidth,
+      (i / rows | 0) * rectHeight,
+      rectWidth,
+      rectHeight] }));
+
+
+  }window.CP.exitedLoop(0);
+}
+
+function resize() {
+  stage.width = canvas.clientWidth;
+  stage.height = canvas.clientHeight;
+  canvas.width = stage.width * devicePixelRatio;
+  canvas.height = stage.height * devicePixelRatio;
+
+  crowd.forEach(peep => {
+    peep.walk.kill();
+  });
+
+  crowd.length = 0;
+  availablePeeps.length = 0;
+  availablePeeps.push(...allPeeps);
+
+  initCrowd();
+}
+
+function initCrowd() {
+  while (availablePeeps.length) {if (window.CP.shouldStopExecution(1)) break;
+    // setting random tween progress spreads the peeps out
+    addPeepToCrowd().walk.progress(Math.random());
+  }window.CP.exitedLoop(1);
+}
+
+function addPeepToCrowd() {
+  const peep = removeRandomFromArray(availablePeeps);
+  const walk = getRandomFromArray(walks)({
+    peep,
+    props: resetPeep({
+      peep,
+      stage }) }).
+
+  eventCallback('onComplete', () => {
+    removePeepFromCrowd(peep);
+    addPeepToCrowd();
+  });
+
+  peep.walk = walk;
+
+  crowd.push(peep);
+  crowd.sort((a, b) => a.anchorY - b.anchorY);
+
+  return peep;
+}
+
+function removePeepFromCrowd(peep) {
+  removeItemFromArray(crowd, peep);
+  availablePeeps.push(peep);
+}
+
+function render() {
+  canvas.width = canvas.width;
+  ctx.save();
+  ctx.scale(devicePixelRatio, devicePixelRatio);
+
+  crowd.forEach(peep => {
+    peep.render(ctx);
+  });
+
+  ctx.restore();
+}
+//# sourceURL=pen.js
+    </script>
+
+
+</body></html>

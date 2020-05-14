@@ -37,8 +37,7 @@ img {
 }
 
 body {
-	background: #fff;
-	color: #666666;
+	
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
@@ -58,11 +57,11 @@ a {
 h1, h2 { margin: 0; }
 
 h1 {
-	font-size: 80px;
+	font-size: 200px;
 	font-weight: 800;
 	line-height: 80px;
 	letter-spacing: -0.08em;
-	color: #161a1b; 
+	color: #3e8e41; 
 }
 
 h2 {
@@ -88,11 +87,7 @@ h2 {
     margin: 0 34px;
 }
 
-.sub-title {
-	font-size: 18px;
-	margin-top: 5px;
-	margin-bottom: 0px;
-}
+
 
 
 /* =Content Styles
