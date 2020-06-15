@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Code Editor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <textarea id="html" placeholder="HTML"></textarea>
+    <textarea id="css" placeholder="CSS"></textarea>
+    <textarea id="js" placeholder="JavaScript"></textarea>
+    <iframe id="code"></iframe>
+    <h1 class="roman">
+      <a href="" class="typewrite" data-period="2000" data-type='[ "Welcome to Codoxia - Code Editor 2020", "We are Creative.", "We Love Design.", "We Love to Develop with you.", "We are the Codoxia Creators." ]'>
+        <span class="wrap"></span>
+      </a>
+    </h1>
+    <button class="open-button" onclick="openForm()">Chat</button>
+
+
+<div class="chat-popup" id="myForm">
+  <form  class="form-container">
+    
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" id="userBox" type="text" onkeydown="if (event.keyCode == 13) {talk()}"></textarea>
+    <div class="moon" id="chatLog"><p class="kane"  ><i class="fa fa-refresh fa-spin"></i></p></div>
+  
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

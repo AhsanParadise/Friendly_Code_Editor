@@ -1,360 +1,169 @@
-<html lang="en"><head>
-<meta charset="UTF-8">
-<meta name="apple-mobile-web-app-title" content="CodoXia">
-<link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
-<link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
-<title>CodoXia Live!</title>
-     <!-- CSS -->
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,900' rel='stylesheet' type='text/css'><!-- Styles -->
-        <link href="css/loader.css" rel="stylesheet" type="text/css">
-        
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-        <!--[if lt IE 9]>
-            <link rel="stylesheet" type="text/css" href="css/ie.css" />
-        <![endif]-->
-        <!-- Javascript -->
-
-        <script src="js/jquery.js"></script>
-<style>
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Codoxia Live</title>
     
-.butt {
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color:#333;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-}
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog Template">
+    <meta name="Codoxia Creators" content="Html basic">    
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- FontAwesome JS-->
+    <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
 
-.butt:hover {background-color:darkred}
+</head> 
 
-.butt:active {
-  background-color: #333;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-html, body {
-  height: 100%;
-}
-body {
-  margin: 0;
-}
+<body>
+    
+    <header class="header text-center">	    
+	    <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Codoxia Live</a></h1>
+        
+	    <nav class="navbar navbar-expand-lg navbar-dark" >
+           
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
 
-#canvas {
-  width: 100%;
-  height: 100%;
-}
-</style>
-<script>
-  window.console = window.console || function(t) {};
-</script>
-<script>
-  if (document.location.search.match(/type=embed/gi)) {
-    window.parent.postMessage("resize", "*");
-  }
-</script>
-</head>
-<body translate="no">
-    <div class="preloader">
-            <div class="loading">
-                <h2>
-                    Warning!
-                </h2>
-                <span class="progress"></span>
-            </div>
-        </div>
-
-        <div class="wrapper">
-            <ul class="scene unselectable" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15" id="scene">
-                <li class="layer" data-depth="0.00">
-                </li>
-                <!-- BG -->
-
-                <li class="layer" data-depth="0.10">
-                    <div class="background">
+			<div id="navigation" class="collapse navbar-collapse flex-column" >
+				<div class="profile-section pt-3 pt-lg-0">
+				    <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/profile.png" alt="image" >			
+					
+					<div class="bio mb-3">Hi, we will change the world with code revolution. Just make yourself a Codoxia Creator. Join us and do right.</div><!--//bio-->
+					<ul class="social-list list-inline py-3 mx-auto">
+			           
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook fa-fw"></i></a></li>
+			        </ul><!--//social-list-->
+			        <hr> 
+				</div><!--//profile-section-->
+				
+				
+				
+				<div class="my-2 my-md-3">
+				    <a class="btn btn-primary" href="editor.html" target="_blank">Try Editor</a>
+				</div>
+			</div>
+		</nav>
+    </header>
+    
+    <div class="main-wrapper">
+	    <section class="cta-section theme-bg-light py-5">
+		    <div class="container text-center">
+			    <h2 class="heading">A Blog and Template website Made For Developers</h2>
+			    <div class="intro">Welcome to Codoxia Live. Click the button to download and you will get our latest <b>Template</b>.</div>
+			    <form class="signup-form form-inline justify-content-center pt-3">
+                    <div class="form-group">
+                        <label class="sr-only" for="">Download</label>
+                        <input type="email" id="semail" name="semail1" class="form-control mr-md-1 semail" placeholder="Your Email (Optional)">
                     </div>
-                </li>
+                     <a id="downloadtag" href="Basic webpage for developers.zip" hidden download></a>
+                    <button onclick="document.getElementById('downloadtag').click()" class="btn btn-primary">Download</button>
+                </form>
+		    </div><!--//container-->
+	    </section>
+	    <section class="blog-list px-3 py-5 p-md-5">
+		    <div class="container">
+			    <div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/blog/blog-post-thumb-1.jpg" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">Is it hard to become a web developer?</h3>
+						    
+						    <div class="intro">Being a web developer requires becoming proficient in a wide range of skills, and updating and refreshing those skills on a regular basis. From HTML and CSS, to testing, version control, performance optimization, and deployment, web development is a tough discipline, just like any other</div>
+						   
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+			    </div><!--//item-->
+			    <div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/blog/blog-post-thumb-2.jpg" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">The Importance of Website Design and Web Development.</h3>
+						
+						    <div class="intro">Web development services help your company to increase product knowledge, maintain communication between you and potential clients, sell your products or services, generate leads for the business, and increase the popularity of your company and much more.
+							</div>
+						    
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+			    </div><!--//item-->
+			    
+			    <div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/blog/blog-post-thumb-3.jpg" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">Importance of JavaScript</h3>
+						    
+						    <div class="intro">JavaScript, an object scripting language which is used in web pages along with markup language HTML. JavaScript is very popular and adopted universally by every web browser for its support which allows dynamic content to get execute in a webpage. JavaScript does not incorporate or abide by any HTML tags or rules.</div>
+						    
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+			    </div><!--//item-->
+			    <div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/blog/blog-post-thumb-4.jpg" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">Top 5 JavaScript Frameworks.</h3>
+						    
+						    <div class="intro">Angular is One of the most powerful, efficient, and open-source JavaScript frameworks is Angular. React is Created by Facebook, the React framework has earned popularity within a short period. There is also Vue,Ember,Meteor.</div>
+						    
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+			    </div><!--//item-->
+			    
+			    <div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/blog/blog-post-thumb-5.jpg" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">Learn React in 24 Hours</h3>
+						    
+						    <div class="intro">The short answer is it will take you between 1-12 months of learning to become proficient with React. This depends on your existing software development experience, your knowledge of javascript and the learning path you take. </div>
+						    
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+			    </div><!--//item-->
+			    
+			    <div class="item">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/blog/blog-post-thumb-6.jpg" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">About CSS</h3>
+						    
+						    <div class="intro">And this is what makes CSS so important. CSS separates a page's content and structure from it's design and formatting. This allows designers and website owners to quickly apply formatting to their layouts, and make any necessary changes and tweaks</div>
+						    
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+			    </div><!--//item-->
+			    
+			    
+				
+		    </div>
+	    </section>
+	    
+	    <footer class="footer text-center py-2 theme-bg-dark">
+		   
+	        
+                <small class="">© 2020 Codoxia Creators and individual contributors. Content is unavailable under MIT License.</small>
+		   
+	    </footer>
+    
+    </div><!--//main-wrapper-->
+    
+    
+    
+    
+   
 
-                <!-- Hero -->
-
-                <li class="layer" data-depth="0.20">
-                    <div class="title">
-                        <h2>
-                           <a id="downloadtag" href="CodoXia Warning.zip" hidden download></a>
-
-<button class="butt" onclick="document.getElementById('downloadtag').click()">Don't click here</button><br><br>The most powerful virus is coming soon!
-                        </h2>
-                        <span class="line"></span>
-                    </div>
-                </li>
-
-
-                <li class="layer" data-depth="0.30">
-                    <div class="hero">
-                        <h1 id="countdown">
-                            The most powerful virus is coming soon!
-                        </h1>
-
-                       
-                    </div>
-                </li>
-                
-        <!-- Javascript -->
+    
        
-        <script src="js/jquery.countdown.min.js"></script>
-        <script src="js/main.js"></script>
-<canvas id="canvas" width="1365" height="475"></canvas>
-<script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
-<script id="rendered-js">
-console.clear();
-console.log('lsakdfalskjdflnksd');
+  
 
-const config = {
-  src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/open-peeps-sheet.png',
-  rows: 15,
-  cols: 7 };
+</body>
+</html> 
 
-
-// UTILS
-
-const randomRange = (min, max) => min + Math.random() * (max - min);
-
-const randomIndex = array => randomRange(0, array.length) | 0;
-
-const removeFromArray = (array, i) => array.splice(i, 1)[0];
-
-const removeItemFromArray = (array, item) => removeFromArray(array, array.indexOf(item));
-
-const removeRandomFromArray = array => removeFromArray(array, randomIndex(array));
-
-const getRandomFromArray = (array) =>
-array[randomIndex(array) | 0];
-
-
-// TWEEN FACTORIES
-
-const resetPeep = ({ stage, peep }) => {
-  const direction = Math.random() > 0.5 ? 1 : -1;
-  // using an ease function to skew random to lower values to help hide that peeps have no legs
-  const offsetY = 100 - 250 * gsap.parseEase('power2.in')(Math.random());
-  const startY = stage.height - peep.height + offsetY;
-  let startX;
-  let endX;
-
-  if (direction === 1) {
-    startX = -peep.width;
-    endX = stage.width;
-    peep.scaleX = 1;
-  } else {
-    startX = stage.width + peep.width;
-    endX = 0;
-    peep.scaleX = -1;
-  }
-
-  peep.x = startX;
-  peep.y = startY;
-  peep.anchorY = startY;
-
-  return {
-    startX,
-    startY,
-    endX };
-
-};
-
-const normalWalk = ({ peep, props }) => {
-  const {
-    startX,
-    startY,
-    endX } =
-  props;
-
-  const xDuration = 10;
-  const yDuration = 0.25;
-
-  const tl = gsap.timeline();
-  tl.timeScale(randomRange(0.5, 1.5));
-  tl.to(peep, {
-    duration: xDuration,
-    x: endX,
-    ease: 'none' },
-  0);
-  tl.to(peep, {
-    duration: yDuration,
-    repeat: xDuration / yDuration,
-    yoyo: true,
-    y: startY - 10 },
-  0);
-
-  return tl;
-};
-
-const walks = [
-normalWalk];
-
-
-// CLASSES
-
-class Peep {
-  constructor({
-    image,
-    rect })
-  {
-    this.image = image;
-    this.setRect(rect);
-
-    this.x = 0;
-    this.y = 0;
-    this.anchorY = 0;
-    this.scaleX = 1;
-    this.walk = null;
-  }
-
-  setRect(rect) {
-    this.rect = rect;
-    this.width = rect[2];
-    this.height = rect[3];
-
-    this.drawArgs = [
-    this.image,
-    ...rect,
-    0, 0, this.width, this.height];
-
-  }
-
-  render(ctx) {
-    ctx.save();
-    ctx.translate(this.x, this.y);
-    ctx.scale(this.scaleX, 1);
-    ctx.drawImage(...this.drawArgs);
-    ctx.restore();
-  }}
-
-
-// MAIN
-
-const img = document.createElement('img');
-img.onload = init;
-img.src = config.src;
-
-const canvas = document.querySelector('#canvas');
-const ctx = canvas.getContext('2d');
-
-const stage = {
-  width: 0,
-  height: 0 };
-
-
-const allPeeps = [];
-const availablePeeps = [];
-const crowd = [];
-
-function init() {
-  createPeeps();
-
-  // resize also (re)populates the stage
-  resize();
-
-  gsap.ticker.add(render);
-  window.addEventListener('resize', resize);
-}
-
-function createPeeps() {
-  const {
-    rows,
-    cols } =
-  config;
-  const {
-    naturalWidth: width,
-    naturalHeight: height } =
-  img;
-  const total = rows * cols;
-  const rectWidth = width / rows;
-  const rectHeight = height / cols;
-
-  for (let i = 0; i < total; i++) {if (window.CP.shouldStopExecution(0)) break;
-    allPeeps.push(new Peep({
-      image: img,
-      rect: [
-      i % rows * rectWidth,
-      (i / rows | 0) * rectHeight,
-      rectWidth,
-      rectHeight] }));
-
-
-  }window.CP.exitedLoop(0);
-}
-
-function resize() {
-  stage.width = canvas.clientWidth;
-  stage.height = canvas.clientHeight;
-  canvas.width = stage.width * devicePixelRatio;
-  canvas.height = stage.height * devicePixelRatio;
-
-  crowd.forEach(peep => {
-    peep.walk.kill();
-  });
-
-  crowd.length = 0;
-  availablePeeps.length = 0;
-  availablePeeps.push(...allPeeps);
-
-  initCrowd();
-}
-
-function initCrowd() {
-  while (availablePeeps.length) {if (window.CP.shouldStopExecution(1)) break;
-    // setting random tween progress spreads the peeps out
-    addPeepToCrowd().walk.progress(Math.random());
-  }window.CP.exitedLoop(1);
-}
-
-function addPeepToCrowd() {
-  const peep = removeRandomFromArray(availablePeeps);
-  const walk = getRandomFromArray(walks)({
-    peep,
-    props: resetPeep({
-      peep,
-      stage }) }).
-
-  eventCallback('onComplete', () => {
-    removePeepFromCrowd(peep);
-    addPeepToCrowd();
-  });
-
-  peep.walk = walk;
-
-  crowd.push(peep);
-  crowd.sort((a, b) => a.anchorY - b.anchorY);
-
-  return peep;
-}
-
-function removePeepFromCrowd(peep) {
-  removeItemFromArray(crowd, peep);
-  availablePeeps.push(peep);
-}
-
-function render() {
-  canvas.width = canvas.width;
-  ctx.save();
-  ctx.scale(devicePixelRatio, devicePixelRatio);
-
-  crowd.forEach(peep => {
-    peep.render(ctx);
-  });
-
-  ctx.restore();
-}
-//# sourceURL=pen.js
-    </script>
-
-
-</body></html>
