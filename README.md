@@ -1,6 +1,5 @@
 # codoxia.github.io
-Codoxia Creators website.
- This website is for basic information.
+
  This website has a beautiful code editor.
- Also, there is a template for beginners in this website.
+ Very helpful for developers.
  Enjoy and share.
