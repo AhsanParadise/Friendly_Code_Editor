@@ -1,3 +1,8 @@
+//==================== Let's do it =============//
+
+
+
+
 function compile() {
   var html = document.getElementById("html");
   var css = document.getElementById("css");
@@ -20,35 +25,6 @@ function compile() {
 }
 
 compile();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
