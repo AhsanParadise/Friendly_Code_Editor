@@ -1,0 +1,167 @@
+<!--===========================================================================================
+  ===============================================================================================
+
+  ///////////////// :)  F R I E N D L Y   C O D E    E D I T O R   \\\\\\\\\\\\\\\\\\\\\
+
+==============================================================================================
+================================================================================================-->
+
+<!-------------- G O O D  L U C K ----------->
+
+<html>
+  <head>
+    <title>Friendly Code Editor!</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript,Friendly Code Editor">
+    <meta name="description" content="A Friendly Code Editor for developers.">
+    <meta name="author" content="AhsanParadise">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="img/cursor.png" rel="icon">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <link rel="stylesheet" href="css/button.css" />
+    <link rel="stylesheet" href="css/preloader.css" />
+    <link rel="stylesheet" href="css/switch.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/cursor/cursor.css" />
+  </head>
+
+  <body onload="myFunc()" style="margin: 0;">
+    <div class="cursor"></div>
+    <div id="loader"></div>
+
+    <div style="display: none;" id="myDiv">
+    
+      <!---Main Part-->
+      <div class="div1">
+        <textarea class="t" rows="20" cols="3" value="1" readonly></textarea>
+        <span>
+          <textarea
+          id="html"
+          placeholder="HTML"
+            class="txt"
+            rows="20"
+            cols="150"
+            nowrap="nowrap"
+            wrap="off"
+            autocomplete="off"
+            autocorrect="off"
+            autocapitalize="off"
+            spellcheck="false"
+            onclick="selectionchanged(this)"
+            onkeyup="keyup(this,event)"
+            oninput="input_changed(this)"
+            onscroll="scroll_changed(this)"
+          ></textarea>
+      </div>
+      <div class="div2">
+        <textarea class="t" rows="20" cols="3" value="1" readonly></textarea>
+        <span>
+          <textarea
+          id="css"
+          placeholder="CSS"
+            class="txt"
+            rows="20"
+            cols="150"
+            nowrap="nowrap"
+            wrap="off"
+            autocomplete="off"
+            autocorrect="off"
+            autocapitalize="off"
+            spellcheck="false"
+            onclick="selectionchanged(this)"
+            onkeyup="keyup(this,event)"
+            oninput="input_changed(this)"
+            onscroll="scroll_changed(this)"
+          ></textarea>
+      </div>
+      <div class="div3">
+        <textarea class="t" rows="20" cols="3" value="1" readonly></textarea>
+        <span>
+          <textarea
+          id="js"
+          placeholder="JAVASCRIPT"
+            class="txt"
+            rows="20"
+            cols="150"
+            nowrap="nowrap"
+            wrap="off"
+            autocomplete="off"
+            autocorrect="off"
+            autocapitalize="off"
+            spellcheck="false"
+            onclick="selectionchanged(this)"
+            onkeyup="keyup(this,event)"
+            oninput="input_changed(this)"
+            onscroll="scroll_changed(this)"
+          ></textarea>
+    </div>
+
+<!---- End of three text area  -->
+
+      <iframe id="code"></iframe>
+    
+
+      <!-- Trigger/Open The Modal -->
+      <button id="myBtn">Need help?</button>
+      <label class="switch">
+        <input type="checkbox" />
+        <span onclick="myDark()" class="slider round"></span>
+      </label>
+
+      <h1 class="roman">
+        <a
+          href=""
+          class="typewrite"
+          data-period="2000"
+          data-type='[ "Welcome to Codoxia Code Editor", "We are Creative.", "We Love Design.", "We Love to Develop with you.", "We are the developers." ]'
+        >
+          <span class="wrap"></span>
+        </a>
+      </h1>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>
+              Hello, Bro. You don't need to use all tag in html.
+              Everything is ready for you. Just play with code.
+            </h2>
+          </div>
+          <div class="modal-body" style="background-image: url(img/undraw.svg);">
+            <p>
+              <b>Why Friendly Code Editor?</b>
+              This Editor is an online community for testing
+              user-created HTML, CSS and JavaScript code snippets. It functions
+              as an online code editor and open-source learning environment,
+              where developers can create code snippets and test
+              them. It works by allowing you to create webpage, which are sets
+              of HTML, CSS, and JavaScript. You can then use those source code on
+              your projects, take feedback from friends, and continue to edit. 
+              Friendly Code Editor is differnt. It is very useful for developers. AhsanParadise often use it. 
+            </p>
+          </div>
+          <div class="modal-footer">
+            <h3>
+              Copyright © 2020 - All rights Reserved - Designed by AhsanParadise
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <!---- E N D -->
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/preloader.js"></script>
+    <script type="text/javascript" src="js/type.js"></script>
+    <script type="text/javascript" src="js/count.js"></script>
+    <script type="text/javascript" src="js/modal.js"></script>
+    <script type="text/javascript" src="js/toggle.js"></script>
+    <script type="text/javascript" src="js/cursor.js"></script>
+  </body>
+</html>
+
+<!---  T H A N K  Y O U  --->

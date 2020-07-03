@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  height: 100vh;
+  cursor: none;
+}
+
+.cursor {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #ddd;
+  border-radius: 50%;
+  position: absolute;
+  animation: cursorAnim 0.5s infinite alternate;
+}
+
+.expand {
+  animation: cursorAnim3 0.5s forwards;
+  border: 5px solid #6c63ff;
+}
+
+@keyframes cursorAnim {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.7);
+  }
+}
+
+@keyframes cursorAnim3 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(3);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}

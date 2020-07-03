@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,CAAC;EACT,MAAM,EAAE,KAAK;CACd;;AAED,AAAA,OAAO,CAAC;EACN,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,eAAe;EACvB,aAAa,EAAE,GAAG;EAClB,QAAQ,EAAE,QAAQ;CACnB",
+    "sources": [
+        "cursor.scss"
+    ],
+    "names": [],
+    "file": "cursor.css"
+}

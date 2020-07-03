@@ -1,0 +1,119 @@
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 16px;
+  background-color: #2f3138;
+
+  color: white;
+  height: 12vh;
+  cursor: pointer;
+}
+.modal-header h2 {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+  margin-top: 14px;
+}
+
+.modal-body {
+  padding: 16px;
+  height: 55vh;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #1c202a;
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+.modal-body p {
+  text-align: left;
+  padding-left: 10px;
+  font-size: 30px;
+  margin-right: 625px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.modal-footer {
+  padding: 16px;
+  background-color: #2f3138;
+  color: white;
+  height: 10vh;
+  cursor: pointer;
+}
+.modal-footer h3 {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: 14px;
+}
+
+b {
+  color: #6c63ff;
+}

@@ -1,0 +1,31 @@
+/* Cool button */
+
+#myBtn {
+  float: left;
+  margin-top: 32px;
+  margin-left: 15px;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #ddd;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#myBtn:hover {
+  background-color: #6c63ff;
+  transition: 1s;
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+#myBtn:active {
+  background-color: red;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

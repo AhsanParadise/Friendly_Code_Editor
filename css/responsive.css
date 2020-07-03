@@ -1,0 +1,186 @@
+/* ====== For every device ===== */
+
+@media only screen and (max-width: 1900px) {
+  textarea {
+    width: 353px;
+    height: 250px;
+  }
+  .t {
+    width: 50px;
+    height: 250px;
+    display: inline-block;
+  }
+  iframe {
+    height: 360px;
+  }
+  .modal-body p {
+    font-size: 20px;
+  }
+  .modal-header h2 {
+    font-size: 15px;
+  }
+  .modal-footer h3 {
+    font-size: 15px;
+  }
+
+  .switch {
+    margin-left: 1000px;
+    top: 44px;
+  }
+  h1 {
+    margin-top: -3px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  textarea {
+    width: 347px;
+    height: 250px;
+    display: inline-block;
+  }
+  .t {
+    width: 50px;
+    height: 250px;
+    display: inline-block;
+  }
+  .modal-body p {
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+  }
+  .modal-body {
+    background-position: bottom;
+    background-size: 60% 60%;
+  }
+  .modal-header h2 {
+    font-size: 15px;
+  }
+  .modal-footer h3 {
+    font-size: 15px;
+  }
+  .switch {
+    margin-left: 650px;
+    top: 35px;
+  }
+}
+
+@media only screen and (max-width: 1279.5px) {
+  textarea {
+    width: 258px;
+    height: 220px;
+    display: inline-block;
+  }
+  .t {
+    width: 50px;
+    height: 220px;
+    display: inline-block;
+  }
+  .modal-body p {
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+  }
+  .modal-body {
+    background-position: bottom;
+    background-size: 60% 60%;
+  }
+  .modal-header h2 {
+    font-size: 15px;
+  }
+  .modal-footer h3 {
+    font-size: 15px;
+  }
+  .switch {
+    margin-left: 650px;
+    top: 35px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .div1,
+  .div2,
+  .div3 {
+    display: inline-block;
+    border: 0px;
+    padding: 2px;
+  }
+  textarea {
+    width: 160px;
+    height: 160px;
+    font-size: 15px;
+  }
+  .t {
+    width: 30px;
+    height: 160px;
+    display: inline-block;
+  }
+  .modal-body p {
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+  }
+  .modal-body {
+    background-position: bottom;
+    background-size: 30% 30%;
+  }
+  .modal-header h2 {
+    font-size: 12px;
+  }
+  .modal-footer h3 {
+    font-size: 12px;
+  }
+  .switch {
+    margin-left: 350px;
+    top: 44px;
+  }
+  iframe {
+    height: 420px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 610px) {
+  .div1,
+  .div2,
+  .div3 {
+    display: inline-block;
+    border: 0px;
+  }
+  textarea {
+    width: 135px;
+    height: 180px;
+    display: inline-block;
+    font-size: 10px;
+  }
+  .t {
+    width: 30px;
+    height: 180px;
+    display: inline-block;
+  }
+  .modal-body p {
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+  }
+  .modal-body {
+    background-position: bottom;
+    background-size: 22% 22%;
+  }
+  .modal-header h2 {
+    font-size: 12px;
+  }
+  .modal-footer h3 {
+    font-size: 12px;
+  }
+
+  iframe {
+    height: 420px;
+  }
+  .switch {
+    margin-left: 100;
+    top: 45px;
+  }
+  h1 {
+    display: none;
+  }
+}
