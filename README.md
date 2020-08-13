@@ -1,7 +1,7 @@
 # codoxia.github.io
 
  Try this Friendly Code Editor. You'll love it. I made it with a lot of effort. It has some great features. I will update it adequately later. Very helpful for developers.
-     
+      
  # Screenshot >>>
  1.open-source learning environment.
  
