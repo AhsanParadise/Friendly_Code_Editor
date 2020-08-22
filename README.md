@@ -4,7 +4,7 @@
  
  1.open-source learning environment.
  
- ![alt text](https://github.com/AhsanParadise/ahsanparadise.github.io/blob/master/ScreenShot1.jpg?raw=true)
+ ![alt text](https://github.com/AhsanParadise/Friendly_Code_Editor/blob/master/ScreenShot1.jpg?raw=true)
  
  2.Easy to understand.
  
