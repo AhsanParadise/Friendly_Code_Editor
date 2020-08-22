@@ -8,9 +8,9 @@
  
  2.Easy to understand.
  
- ![alt text](https://github.com/AhsanParadise/ahsanparadise.github.io/blob/master/ScreenShot2.jpg?raw=true)
+ ![alt text](https://github.com/AhsanParadise/Friendly_Code_Editor/blob/master/ScreenShot2.jpg?raw=true)
  
  3.An online editor for testing.
  
- ![alt text](https://github.com/AhsanParadise/ahsanparadise.github.io/blob/master/ScreenShot3.jpg?raw=true)
+ ![alt text](https://github.com/AhsanParadise/Friendly_Code_Editor/blob/master/ScreenShot3.jpg?raw=true)
 
