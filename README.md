@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/Updated-July 3, 2020-orange.svg?longCache=true&style=flat-square"
       alt="_time_stamp_" />
   <!-- Status -->
-    <img src="https://img.shields.io/badge/Status-Stable-green.svg?longCache=true&style=flat-square"
+    <img src="https://img.shields.io/badge/Status-Active-green.svg?longCache=true&style=flat-square"
       alt="_time_stamp_" />
   </div>
  
