@@ -1,7 +1,8 @@
+<div align="center">
 # Friendly Code Editor
 
  Try this Friendly Code Editor. You'll love it. I made it with a lot of effort. It has some great features. I will update it adequately later. Very helpful for developers.
- 
+ </div>
  <div align="center">  
   <!-- Version -->
     <img src="https://img.shields.io/badge/Version-3.0-blue.svg?longCache=true&style=flat-square"
