@@ -15,15 +15,15 @@
   </div>
  
  
- ### 1.open-source learning environment.
+ ### 1. open-source learning environment.
  
  ![alt text](https://github.com/AhsanParadise/Friendly_Code_Editor/blob/master/ScreenShot1.jpg?raw=true)
  
- ### 2.Easy to understand.
+ ### 2. Easy to understand.
  
  ![alt text](https://github.com/AhsanParadise/Friendly_Code_Editor/blob/master/ScreenShot2.jpg?raw=true)
  
- ### 3.An online editor for testing.
+ ### 3. An online editor for testing.
  
  ![alt text](https://github.com/AhsanParadise/Friendly_Code_Editor/blob/master/ScreenShot3.jpg?raw=true)
 
